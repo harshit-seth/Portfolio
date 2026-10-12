@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="74" y1="40" x2="927" y2="685" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171A29"/>
+      <stop offset="1" stop-color="#28203B"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="250" y1="210" x2="740" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B78AFF"/>
+      <stop offset="1" stop-color="#00FF99"/>
+    </linearGradient>
+    <filter id="blur" x="335" y="130" width="340" height="450" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="46"/>
+    </filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1000v700H0z"/>
+  <circle cx="505" cy="350" r="140" fill="#A879FF" fill-opacity=".27" filter="url(#blur)"/>
+  <g stroke="#B3A2D0" stroke-opacity=".17">
+    <path d="M0 100h1000M0 200h1000M0 300h1000M0 400h1000M0 500h1000M0 600h1000M100 0v700M200 0v700M300 0v700M400 0v700M500 0v700M600 0v700M700 0v700M800 0v700M900 0v700"/>
+  </g>
+  <rect x="115" y="132" width="770" height="436" rx="24" fill="#11141E" stroke="#55486D" stroke-width="2"/>
+  <path d="M139 132h722a24 24 0 0 1 24 24v43H115v-43a24 24 0 0 1 24-24Z" fill="#242334"/>
+  <circle cx="152" cy="169" r="7" fill="#FF7185"/><circle cx="177" cy="169" r="7" fill="#FFCA68"/><circle cx="202" cy="169" r="7" fill="#8BE3AE"/>
+  <text x="244" y="176" fill="#DAD2E8" font-family="monospace" font-size="19" letter-spacing="2">CLAUDE CODE / AGENT HARNESS</text>
+  <rect x="155" y="235" width="410" height="282" rx="14" fill="#171B28" stroke="#39344C"/>
+  <text x="188" y="278" fill="#B78AFF" font-family="monospace" font-size="17">AUTONOMOUS CODING SESSION</text>
+  <text x="188" y="328" fill="#9C8EB3" font-family="monospace" font-size="16">&gt; inspect project structure</text>
+  <text x="188" y="366" fill="#D7D0E3" font-family="monospace" font-size="16">Found 24 source files</text>
+  <text x="188" y="407" fill="#9C8EB3" font-family="monospace" font-size="16">&gt; implement requested change</text>
+  <text x="188" y="445" fill="#D7D0E3" font-family="monospace" font-size="16">Editing app / services...</text>
+  <rect x="188" y="470" width="11" height="20" rx="2" fill="#00FF99"/>
+  <rect x="600" y="247" width="220" height="244" rx="18" fill="#1C1B2A" stroke="#6E5A8A" stroke-width="2"/>
+  <path d="M710 290c-45 0-81 36-81 81v37c0 20 16 36 36 36h90c20 0 36-16 36-36v-37c0-45-36-81-81-81Z" fill="#29243A" stroke="url(#beam)" stroke-width="3"/>
+  <path d="M666 374h13m62 0h13" stroke="#E6D9FF" stroke-linecap="round" stroke-width="9"/>
+  <path d="M685 413c14 12 36 12 50 0" stroke="#00FF99" stroke-linecap="round" stroke-width="4"/>
+  <path d="M710 260v-19m-43 30-13-14m99 14 13-14" stroke="#B78AFF" stroke-linecap="round" stroke-width="4"/>
+  <circle cx="710" cy="240" r="7" fill="#00FF99"/>
+  <path d="M626 527h168" stroke="#514363" stroke-linecap="round" stroke-width="5"/>
+</svg>

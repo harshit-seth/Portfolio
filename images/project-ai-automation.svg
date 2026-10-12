@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="72" y1="41" x2="922" y2="671" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17182B"/>
+      <stop offset="1" stop-color="#202B3D"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="210" y1="200" x2="793" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B58AFF"/>
+      <stop offset=".52" stop-color="#00FF99"/>
+      <stop offset="1" stop-color="#28A9FF"/>
+    </linearGradient>
+    <filter id="blur" x="330" y="158" width="390" height="400" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="48"/>
+    </filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1000v700H0z"/>
+  <circle cx="526" cy="354" r="142" fill="#9276FF" fill-opacity=".23" filter="url(#blur)"/>
+  <g stroke="#A6B0CC" stroke-opacity=".16">
+    <path d="M0 100h1000M0 200h1000M0 300h1000M0 400h1000M0 500h1000M0 600h1000M100 0v700M200 0v700M300 0v700M400 0v700M500 0v700M600 0v700M700 0v700M800 0v700M900 0v700"/>
+  </g>
+  <rect x="118" y="135" width="764" height="430" rx="24" fill="#121722" stroke="#4A4D6A" stroke-width="2"/>
+  <path d="M142 135h716a24 24 0 0 1 24 24v43H118v-43a24 24 0 0 1 24-24Z" fill="#242638"/>
+  <circle cx="155" cy="171" r="7" fill="#FF7185"/><circle cx="180" cy="171" r="7" fill="#FFCA68"/><circle cx="205" cy="171" r="7" fill="#8BE3AE"/>
+  <text x="248" y="178" fill="#DAD8EB" font-family="monospace" font-size="19" letter-spacing="2">AI AGENT / AUTOMATION FLOW</text>
+  <path d="M285 354h96m142 0h97m-97 0v119m97-119h97" stroke="url(#flow)" stroke-linecap="round" stroke-width="7"/>
+  <rect x="160" y="306" width="125" height="96" rx="18" fill="#24243A" stroke="#B58AFF" stroke-width="2"/>
+  <circle cx="222" cy="338" r="14" stroke="#D6C1FF" stroke-width="3"/>
+  <path d="M195 376c5-14 16-21 27-21s22 7 27 21" stroke="#D6C1FF" stroke-linecap="round" stroke-width="3"/>
+  <text x="184" y="427" fill="#BDB4D1" font-family="monospace" font-size="13">JOB INPUT</text>
+  <rect x="381" y="306" width="142" height="96" rx="18" fill="#1D3737" stroke="#00FF99" stroke-width="2"/>
+  <path d="M425 342c8-12 25-12 33 0m-34 16c9 10 26 10 35 0m-17-34v52" stroke="#9DFFD5" stroke-linecap="round" stroke-width="4"/>
+  <text x="410" y="427" fill="#B6E9D6" font-family="monospace" font-size="13">AI AGENT</text>
+  <rect x="620" y="306" width="142" height="96" rx="18" fill="#1C2E41" stroke="#28A9FF" stroke-width="2"/>
+  <path d="M653 337h75m-75 17h75m-75 17h48" stroke="#B9E6FF" stroke-linecap="round" stroke-width="4"/>
+  <text x="651" y="427" fill="#B7DDF3" font-family="monospace" font-size="13">RESUME OUTPUT</text>
+  <rect x="450" y="474" width="145" height="52" rx="14" fill="#25223B" stroke="#B58AFF" stroke-width="2"/>
+  <path d="m482 500 12 12 24-26" stroke="#CDB8FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <text x="528" y="507" fill="#D5C9EA" font-family="monospace" font-size="13">AUTOMATED</text>
+  <circle cx="382" cy="354" r="7" fill="#B58AFF"/><circle cx="524" cy="354" r="7" fill="#00FF99"/><circle cx="621" cy="354" r="7" fill="#28A9FF"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="88" y1="49" x2="930" y2="656" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111D2A"/>
+      <stop offset="1" stop-color="#132C39"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="214" y1="245" x2="774" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FF99"/>
+      <stop offset=".55" stop-color="#23B9E8"/>
+      <stop offset="1" stop-color="#A0F2C8"/>
+    </linearGradient>
+    <filter id="blur" x="307" y="173" width="400" height="360" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="48"/>
+    </filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1000v700H0z"/>
+  <circle cx="510" cy="356" r="142" fill="#00B8AA" fill-opacity=".2" filter="url(#blur)"/>
+  <g stroke="#9CB7C6" stroke-opacity=".18">
+    <path d="M0 100h1000M0 200h1000M0 300h1000M0 400h1000M0 500h1000M0 600h1000M100 0v700M200 0v700M300 0v700M400 0v700M500 0v700M600 0v700M700 0v700M800 0v700M900 0v700"/>
+  </g>
+  <rect x="114" y="133" width="772" height="434" rx="24" fill="#111A24" stroke="#355468" stroke-width="2"/>
+  <path d="M138 133h724a24 24 0 0 1 24 24v44H114v-44a24 24 0 0 1 24-24Z" fill="#1B2935"/>
+  <circle cx="151" cy="170" r="7" fill="#FF7185"/><circle cx="176" cy="170" r="7" fill="#FFCA68"/><circle cx="201" cy="170" r="7" fill="#00FF99"/>
+  <text x="244" y="177" fill="#D2E4ED" font-family="monospace" font-size="19" letter-spacing="2">KESTRA / FLOW TOPOLOGY</text>
+  <path d="M278 358h138m168 0h138M500 358v99m0-99v-99" stroke="url(#flow)" stroke-linecap="round" stroke-width="8"/>
+  <path d="M404 358h12m156 0h12m-84-99v12m0 75v12" stroke="#D5FFF0" stroke-linecap="round" stroke-width="4"/>
+  <rect x="168" y="319" width="110" height="78" rx="16" fill="#203B45" stroke="#00FF99" stroke-width="2"/>
+  <path d="M198 345h49m-49 15h36m-36 15h42" stroke="#B6EDE0" stroke-linecap="round" stroke-width="4"/>
+  <rect x="416" y="220" width="168" height="78" rx="16" fill="#1E3444" stroke="#23B9E8" stroke-width="2"/>
+  <circle cx="445" cy="259" r="10" fill="#23B9E8"/>
+  <path d="M467 250h89m-89 18h65" stroke="#C8E7F4" stroke-linecap="round" stroke-width="4"/>
+  <rect x="416" y="418" width="168" height="78" rx="16" fill="#1E3444" stroke="#23B9E8" stroke-width="2"/>
+  <circle cx="445" cy="457" r="10" fill="#00FF99"/>
+  <path d="M467 448h89m-89 18h65" stroke="#C8E7F4" stroke-linecap="round" stroke-width="4"/>
+  <rect x="722" y="319" width="110" height="78" rx="16" fill="#203B45" stroke="#A0F2C8" stroke-width="2"/>
+  <path d="m753 359 13 13 32-33" stroke="#A0F2C8" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+  <circle cx="500" cy="358" r="13" fill="#00FF99"/>
+  <text x="175" y="465" fill="#8FA9B8" font-family="monospace" font-size="14">TRIGGER</text>
+  <text x="738" y="465" fill="#8FA9B8" font-family="monospace" font-size="14">TASK</text>
+</svg>
